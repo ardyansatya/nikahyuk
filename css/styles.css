@@ -1,0 +1,225 @@
+* {
+  margin: 0;
+  padding: 0;
+
+
+}
+
+body {
+  background-color: #000;
+}
+
+.container {
+    width: 75%;
+    margin: auto;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  color: #eaa030;
+  text-decoration: none;
+}
+
+header {
+  position: fixed;
+  width: 100vw;
+  padding: 0;
+  z-index: 1;
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  font-family: 'Abel', sans-serif;
+  color: #eaa030;
+}
+
+.tablink {
+  width: 25%;
+  padding: 20px;
+  text-align: center;
+  background-color: #000;
+}
+
+.cover {
+  height: 500px;
+  padding-top: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.cover::before {
+  content: "";
+  background-image: url("../images/swirlwd.png");
+  background-size: 420px;
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 100px;
+  right: 0px;
+  bottom: 0px;
+  left: 464px;
+  opacity: 0.30;
+}
+
+.couple {
+  padding-top: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #eaa030;
+}
+
+.canvaCouple {
+  background-image: url(../images/bgpaper.jpg);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 85%;
+  border-radius: 20px;
+  border: 4px;
+  border-style: solid;
+  border-color: #eaa030;
+}
+
+.pageTitle {
+    font-family: 'Dancing Script', cursive;
+    font-size: 20pt;
+    margin: 20px;
+    background-color: transparent;
+}
+
+.par > p {
+  background-color: transparent;
+  text-align: center;
+  font-family: 'Abel', sans-serif;
+  margin: 20px;
+}
+
+h1, .tgl {
+  font-family: 'Dancing Script', cursive;
+  font-size: 24pt;
+}
+
+.tgl {
+  font-size: 18pt; !important
+}
+
+.subtitle, .loc {
+  font-family: 'Abel', sans-serif;
+  margin: 8px;
+}
+
+.coupleName {
+  font-family: 'Dancing Script', cursive;
+  font-size: 57pt;
+  margin: 10px;
+}
+
+.btn {
+  padding: 20px 30px;
+  margin: 30px 0;
+  border-style: none;
+  border-radius: 10px;
+  font-family: 'Abel', sans-serif;
+  font-size: 12pt;
+  background-color: #eaa030;
+  color: white;
+}
+
+.ornhz > img {
+  width: 550px;
+  margin: 10px;
+}
+
+.ornwyg {
+  width: 150px;
+  background-color: transparent;
+}
+
+.fcCover {
+    color: #eaa030;
+    background-color: transparent;
+}
+
+.fcCouple {
+    color: #000;
+    background-color: transparent;
+}
+
+.space {
+  width: 100px;
+  height: 50px;
+}
+
+section {
+  position: relative;
+}
+
+.cover {
+    height: 100%;
+}
+
+.maps {
+  width: 100%;
+}
+
+img {
+  width: 100%;
+}
+
+.photoGrid {
+  display: flex;
+  width: 100%;
+}
+
+.gridHalf {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.tablink:hover {
+  background-color: #eaa030;
+  color: #fff;
+  font-weight: bold;
+}
+
+.clockdiv {
+  display: flex;
+  flex-direction: row;
+}
+
+label {
+  font-family: 'Abel', sans-serif;
+  margin: 5px;
+}
+
+.field {
+  border-radius: 10px;
+  margin: 10px auto;
+}
+
+.inputfield {
+  border-radius: 7px;
+  height: 30px;
+  width: 100%;
+  border-style: solid;
+  border-width: 1px;
+  margin:10px auto;
+}
+
+.btnForm {
+  padding: 15px 35px;
+  width: 100%;
+  border-radius: 10px;
+  border-style: none;
+  background-color: #eaa030;
+  font-weight: bold;
+  font-family: 'Abel', sans-serif;
+  color: #fff;
+}
